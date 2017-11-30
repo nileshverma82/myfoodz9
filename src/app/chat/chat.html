@@ -1,9 +1,0 @@
-<div class="row columns">
-
-<div  *ngFor="let message of messages | async">
-	<a >{{message.msg}}</a>
-</div>
-
-<input type="text" #message placeholder="Your message..">
-<button (click)="newMessage(message.value)">Send message</button>
-</div>
